@@ -13,6 +13,9 @@ function Header({ headerClass }) {
             </Link>
           </div>
           <nav className='navbar flx1 df'>
+          <div id="menu-toggle" class="menu-toggle dn cp fc1">
+              <span class="material-symbols-outlined"> menu </span>
+            </div>
             <ul className='nav-items fs14 fw6 v-center jcse w100'>
               <li className='nav-item'>
                 <Link to='services' className='fc1'>
